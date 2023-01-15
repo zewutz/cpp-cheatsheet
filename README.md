@@ -2,7 +2,6 @@ Variables:
     Declare with a data type (e.g. int, double, char) followed by the variable name (e.g. int x; double y; char c;)
     Assign values using the assignment operator (=) (e.g. x = 5; y = 3.14; c = 'a';)
 
-    // Example
     int x = 5;
     double y = 3.14;
     char c = 'a';
@@ -12,7 +11,6 @@ Variables:
 Input/Output:
     Use cin to read input and cout to write output (e.g. cin >> x; cout << "x = " << x << endl;)
 
-    // Example
     #include <iostream>
     using namespace std;
     int main() {
@@ -28,7 +26,6 @@ Conditional statements:
     if-else statements: (e.g. if (x > 0) cout << "x is positive"; else cout << "x is non-positive";)
     switch statement: (e.g. switch (c) { case 'a': cout << "c is a"; break; case 'b': cout << "c is b"; break; default: cout << "c is neither a nor b"; } )
 
-    // Example
     if (x > 0) 
         cout << "x is positive"; 
     else 
@@ -52,7 +49,6 @@ Loops:
     while loops: (e.g. while (x > 0) { x--; cout << x << " "; } )
     do-while loops: (e.g. do { x++; cout << x << " "; } while (x < 10); )
 
-    // Example
     for (int i = 0; i < 10; i++) 
         cout << i << " ";
 
@@ -72,7 +68,6 @@ Functions:
     Define with a return type, name, and parameters (if any) (e.g. int add(int x, int y) { return x + y; })
     Call with the function name and arguments (e.g. int sum = add(3, 4);)
 
-    // Example
     int add(int x, int y) {
     return x + y;
     }
@@ -89,7 +84,6 @@ Arrays:
     Declare with a data type, name, and size (e.g. int a[10];)
     Access elements using the array name and an index in square brackets (e.g. a[0] = 5; cout << a[1];)
 
-    // Example
     int a[10];
     a[0] = 5;
     cout << a[1];
@@ -100,8 +94,7 @@ Classes and Objects:
     Define a class with data members (variables) and member functions (methods)
     Create an object of a class using the class name and the keyword "new"
     Access class members using the dot operator (.) or the arrow operator (->)
-
-    // Example
+    
     class MyClass {
         public:
             int x;
@@ -123,7 +116,6 @@ Pointers:
     Assign the address of a variable to a pointer using the ampersand (&) operator
     Access the value at a pointer address using the dereference operator (*)
 
-    // Example
     int x = 5;
     int* p = &x;
     cout << *p << endl;
@@ -134,7 +126,6 @@ Templates:
     Define a template class or function with the keyword "template"
     Use the template with different data types by specifying the type in angle brackets (<>)
 
-    // Example
     template <typename T>
     T add(T x, T y) {
         return x + y;
@@ -153,7 +144,6 @@ Templates:
 Operator Overloading:
     Overload operators for custom classes by defining member functions with the keyword "operator"
 
-    // Example
     class MyComplex {
         public:
             double re, im;
@@ -179,7 +169,6 @@ Operator Overloading:
 Inheritance:
     Define a class that inherits from another class using the colon (:) operator and the keyword "public" or "private"
 
-    // Example
     class Shape {
         public:
             double area() { return 0; }
@@ -204,7 +193,6 @@ Exception Handling:
     Use try-catch blocks to handle exceptions thrown by a function or method
     Throw exceptions using the keyword "throw"
 
-    // Example
     int divide(int x, int y) {
         if (y == 0) 
             throw "Division by zero";
@@ -226,7 +214,6 @@ Exception Handling:
 Namespaces:
     Use namespaces to organize code and prevent naming conflicts
 
-    // Example
     namespace MyNamespace {
         int x = 5;
     }
@@ -242,7 +229,6 @@ Standard Template Library (STL):
     Use STL containers such as vector, list, and map to store data
     Use STL algorithms such as sort, find, and for_each to manipulate data
 
-    // Example
     #include <vector>
     #include <algorithm>
     using namespace std;
